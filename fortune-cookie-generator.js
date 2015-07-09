@@ -11,7 +11,7 @@ var generateFortuneCookie = function() {
 
     // TODO: Grab the paragraph with the ID
     // `fortune-cookie-text` to be able to insert text into that element.
-
+var cookieText = document.getElementById('fortune-cookie-text');
     // TODO: Update the Previous Fortunes list with the current `innerHTML`
     // value of `#fortune-cookie-text`. Follow these steps:
         // 1. Create a new `li` element with the `document.createElement()` method.
